@@ -1,0 +1,14 @@
+[remap]
+
+importer="importer.atlased"
+type="Resource"
+path="res://.import/space_cadet.json-8e52f729d00b9fa9a8df1209980f1d70.tres"
+
+[deps]
+
+source_file="res://Test/space_cadet.json"
+dest_files=[ "res://.import/space_cadet.json-8e52f729d00b9fa9a8df1209980f1d70.tres" ]
+
+[params]
+
+generate_sprites=true
