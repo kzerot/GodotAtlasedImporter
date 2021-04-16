@@ -1,3 +1,33 @@
-[gd_scene format=2]
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Test/space_cadet/region_7.atlastex" type="Texture" id=1]
+[ext_resource path="res://Test/space_cadet/region_10.atlastex" type="Texture" id=2]
+[ext_resource path="res://Test/space_cadet/region_14.atlastex" type="Texture" id=3]
+[ext_resource path="res://Test/space_cadet/region_2.atlastex" type="Texture" id=4]
+[ext_resource path="res://Test/space_cadet/region_4.atlastex" type="Texture" id=5]
+[ext_resource path="res://Test/space_cadet/region_5.atlastex" type="Texture" id=6]
+[ext_resource path="res://Test/space_cadet/region_3.atlastex" type="Texture" id=7]
+[ext_resource path="res://Test/space_cadet/region_1.atlastex" type="Texture" id=8]
+[ext_resource path="res://Test/space_cadet/region_0.atlastex" type="Texture" id=9]
+[ext_resource path="res://Test/space_cadet/region_6.atlastex" type="Texture" id=11]
+[ext_resource path="res://Test/space_cadet/region_8.atlastex" type="Texture" id=12]
+[ext_resource path="res://Test/space_cadet/region_11.atlastex" type="Texture" id=13]
+[ext_resource path="res://Test/space_cadet/region_12.atlastex" type="Texture" id=14]
+[ext_resource path="res://Test/space_cadet/region_15.atlastex" type="Texture" id=15]
+[ext_resource path="res://Test/space_cadet/region_13.atlastex" type="Texture" id=16]
+[ext_resource path="res://Test/space_cadet/region_9.atlastex" type="Texture" id=17]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 9 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 11 ), ExtResource( 1 ), ExtResource( 12 ), ExtResource( 17 ), ExtResource( 2 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 3 ), ExtResource( 15 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
 
 [node name="TestScene" type="Node2D"]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 1 )
+frame = 7
+playing = true

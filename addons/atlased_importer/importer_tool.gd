@@ -57,7 +57,7 @@ func import(source_file, save_path, options, platform_variants, gen_files):
 #			for i in 3:
 #				# attempts for load image_texture
 				
-		var source = load(source_file.get_base_dir().plus_file(json.result.texture_name))
+		var source = load(source_file.get_base_dir().plus_file(json.result.image))
 		if not Directory.new().dir_exists(target_dir):
 			print_debug("Create directory ", target_dir)
 			Directory.new().make_dir(target_dir)
