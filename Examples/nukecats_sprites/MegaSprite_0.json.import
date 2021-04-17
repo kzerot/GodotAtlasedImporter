@@ -1,0 +1,17 @@
+[remap]
+
+importer="importer.atlased"
+type="Resource"
+path="res://.import/MegaSprite_0.json-e99953f3c4834480d9485f4bac971295.tres"
+
+[deps]
+
+source_file="res://Examples/nukecats_sprites/MegaSprite_0.json"
+dest_files=[ "res://.import/MegaSprite_0.json-e99953f3c4834480d9485f4bac971295.tres" ]
+
+[params]
+
+generate_sprites=false
+generate_tileset=false
+generate_tilemap=false
+use_offset_for_tileset=false

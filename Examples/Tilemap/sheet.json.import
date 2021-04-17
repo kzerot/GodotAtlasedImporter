@@ -1,0 +1,17 @@
+[remap]
+
+importer="importer.atlased"
+type="Resource"
+path="res://.import/sheet.json-11b8487273fa89a733594b0b505a4ea2.tres"
+
+[deps]
+
+source_file="res://Examples/Tilemap/sheet.json"
+dest_files=[ "res://.import/sheet.json-11b8487273fa89a733594b0b505a4ea2.tres" ]
+
+[params]
+
+generate_sprites=false
+generate_tileset=true
+generate_tilemap=true
+use_offset_for_tileset=false

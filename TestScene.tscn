@@ -1,33 +1,13 @@
-[gd_scene load_steps=18 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Test/space_cadet/region_7.atlastex" type="Texture" id=1]
-[ext_resource path="res://Test/space_cadet/region_10.atlastex" type="Texture" id=2]
-[ext_resource path="res://Test/space_cadet/region_14.atlastex" type="Texture" id=3]
-[ext_resource path="res://Test/space_cadet/region_2.atlastex" type="Texture" id=4]
-[ext_resource path="res://Test/space_cadet/region_4.atlastex" type="Texture" id=5]
-[ext_resource path="res://Test/space_cadet/region_5.atlastex" type="Texture" id=6]
-[ext_resource path="res://Test/space_cadet/region_3.atlastex" type="Texture" id=7]
-[ext_resource path="res://Test/space_cadet/region_1.atlastex" type="Texture" id=8]
-[ext_resource path="res://Test/space_cadet/region_0.atlastex" type="Texture" id=9]
-[ext_resource path="res://Test/space_cadet/region_6.atlastex" type="Texture" id=11]
-[ext_resource path="res://Test/space_cadet/region_8.atlastex" type="Texture" id=12]
-[ext_resource path="res://Test/space_cadet/region_11.atlastex" type="Texture" id=13]
-[ext_resource path="res://Test/space_cadet/region_12.atlastex" type="Texture" id=14]
-[ext_resource path="res://Test/space_cadet/region_15.atlastex" type="Texture" id=15]
-[ext_resource path="res://Test/space_cadet/region_13.atlastex" type="Texture" id=16]
-[ext_resource path="res://Test/space_cadet/region_9.atlastex" type="Texture" id=17]
-
-[sub_resource type="SpriteFrames" id=1]
-animations = [ {
-"frames": [ ExtResource( 9 ), ExtResource( 8 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 11 ), ExtResource( 1 ), ExtResource( 12 ), ExtResource( 17 ), ExtResource( 2 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 3 ), ExtResource( 15 ) ],
-"loop": true,
-"name": "default",
-"speed": 5.0
-} ]
+[ext_resource path="res://Examples/Tilemap/sheet_tileset.tres" type="TileSet" id=10]
 
 [node name="TestScene" type="Node2D"]
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-frames = SubResource( 1 )
-frame = 7
-playing = true
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 10 )
+cell_size = Vector2( 16, 16 )
+centered_textures = true
+cell_clip_uv = true
+format = 1
+tile_data = PoolIntArray( -524285, 42, 0, -327676, 42, 0, -327675, 42, 0, -327674, 42, 0, -327673, 42, 0, -327672, 42, 0, -262140, 42, 0, -262139, 42, 0, -262138, 42, 0, -262137, 42, 0, -262136, 42, 0, -196604, 42, 0, -196603, 42, 0, -196602, 42, 0, -196601, 42, 0, -196600, 42, 0, -131064, 42, 0, 65544, 7, 0, 65545, 7, 0, 65546, 7, 0, 65547, 7, 0, 65548, 7, 0, 65549, 7, 0, 65550, 7, 0, 65551, 7, 0, 131092, 7, 0, 327689, 42, 0, 327691, 8, 0, 393219, 8, 0, 393220, 8, 0, 393221, 8, 0, 393222, 8, 0, 393223, 8, 0, 393224, 8, 0, 393226, 42, 0, 393229, 42, 0, 393230, 42, 0, 393231, 42, 0, 458755, 8, 0, 458758, 8, 0, 458759, 8, 0, 458762, 42, 0, 458764, 42, 0, 458767, 42, 0, 524291, 8, 0, 524292, 8, 0, 524293, 8, 0, 524294, 8, 0, 524299, 42, 0, 524300, 42, 0, 524303, 42, 0, 589832, 8, 0, 589836, 42, 0, 589839, 42, 0, 655367, 42, 0, 655372, 42, 0, 655373, 42, 0, 655374, 8, 0, 720903, 42, 0, 720904, 42, 0, 720905, 42, 0, 720906, 42, 0, 720907, 42, 0, 720908, 42, 0 )
