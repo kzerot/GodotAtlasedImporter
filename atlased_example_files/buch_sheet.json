@@ -1,0 +1,722 @@
+{
+    "fill_rate": 0,
+    "grid_height": 16,
+    "grid_width": 16,
+    "height": 128,
+    "image": "buch_sheet.png",
+    "name": "buch_sheet",
+    "padding_x": 0,
+    "padding_y": 0,
+    "pot": false,
+    "regions": [
+        {
+            "idx": 82,
+            "name": "chest1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                224,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 83,
+            "name": "chest2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                240,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 84,
+            "name": "chest3",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                256,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 76,
+            "name": "crate",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                128,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 48,
+            "name": "fence1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                224,
+                32,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 49,
+            "name": "fence2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                240,
+                32,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 50,
+            "name": "fence3",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                256,
+                32,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 65,
+            "name": "fence4",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                224,
+                48,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 66,
+            "name": "fence5",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                240,
+                48,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 67,
+            "name": "fence6",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                256,
+                48,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 99,
+            "name": "flowers1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                224,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 100,
+            "name": "flowers2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                240,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 116,
+            "name": "flowers3",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                224,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 117,
+            "name": "flowers4",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                240,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 113,
+            "name": "grass1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                176,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 114,
+            "name": "grass2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                192,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 115,
+            "name": "grass3",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                208,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 96,
+            "name": "grass4",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                176,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 97,
+            "name": "grass5",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                192,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 98,
+            "name": "grass6",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                208,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 79,
+            "name": "grass7",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                176,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 80,
+            "name": "grass8",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                192,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 81,
+            "name": "grass9",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                208,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 61,
+            "name": "ice4",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                160,
+                48,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 63,
+            "name": "ice6",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                192,
+                48,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 44,
+            "name": "ice7",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                160,
+                32,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 45,
+            "name": "ice8",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                176,
+                32,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 46,
+            "name": "ice9",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                192,
+                32,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 75,
+            "name": "ladder1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                112,
+                64,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 92,
+            "name": "ladder2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                112,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 109,
+            "name": "ladder3",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                112,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 27,
+            "name": "rock4",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                160,
+                16,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 28,
+            "name": "rock5",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                176,
+                16,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 29,
+            "name": "rock6",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                192,
+                16,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 10,
+            "name": "rock7",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                160,
+                0,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 11,
+            "name": "rock8",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                176,
+                0,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 12,
+            "name": "rock9",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                192,
+                0,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 14,
+            "name": "sign1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                224,
+                0,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 15,
+            "name": "sign2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                240,
+                0,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 16,
+            "name": "sign3",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                256,
+                0,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 31,
+            "name": "sign4",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                224,
+                16,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 32,
+            "name": "sign5",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                240,
+                16,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 33,
+            "name": "sign6",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                256,
+                16,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 101,
+            "name": "stone1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                256,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 118,
+            "name": "stone2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                256,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 93,
+            "name": "water1",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                128,
+                80,
+                16,
+                16
+            ],
+            "rotated": false
+        },
+        {
+            "idx": 110,
+            "name": "water2",
+            "origin": [
+                8,
+                8
+            ],
+            "rect": [
+                128,
+                96,
+                16,
+                16
+            ],
+            "rotated": false
+        }
+    ],
+    "regions_count": 47,
+    "rotations": false,
+    "using_grid": true,
+    "width": 272
+}
