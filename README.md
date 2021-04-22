@@ -42,7 +42,9 @@ After that you can review your newly created tileset.
 ### Manually created TileMap
 Now, create <a href="https://docs.godotengine.org/en/3.3/classes/class_tilemap.html" target="_blank" rel="noopener noreferrer">TileMap</a> node inside your scene.
 Select it, open **Inspector tab** and drag your fresh tileset ***.tres file** into **Tile Set** field of TileMap properties.
-![Godot TileMap settings](https://raw.githubusercontent.com/kzerot/GodotAtlasedImporter/main/readme_img/tilemap_settings.png#image_extra_small)
+
+![Godot TileMap settings](https://raw.githubusercontent.com/kzerot/GodotAtlasedImporter/main/readme_img/tilemap_settings.png)
+
 You may also need to adjust **Cell->Size** to match your tile size.
 Enjoy :)
 
